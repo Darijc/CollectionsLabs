@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+html {
+    font-size: 25px;
+}
+body {
+    background: #212129; 
+    background: -webkit-linear-gradient(
+        to right,
+        #212129,
+        #0e0e11
+    ); 
+    background: linear-gradient(to right, #212129, #0e0e11); /*Для інших браузерів*/
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    position: absolute;
+    transform: translate(-50%, -1%);
+    top:1%;
+    left:50%;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    background: #ffffff;
+    border-radius: 25px;
+    width: 40%;
+    min-width: 300px;
+    height: 1900px;
+    padding: 2rem;
+    box-shadow: 0 24px 20px rgba(0, 0, 0, 0.10);
+}
+
+.profile-box{
+	width : 400px;
+	height : 400px;
+	position: relative;
+	transform: translate(-50%, -1%);
+    top:1%;
+    left:50%;
+	overflow : hidden;
+}
+.profile-box .img-area, .profile-box .img-text{
+	width : 100%;
+	position : absolute;
+	box-sizing : border-box;
+	transition : .8s;
+}
+.profile-box:hover .img-area{
+	-webkit-transform : translate3D(400px,0,0) rotate3d(0,1,0,-10deg);
+}
+.img-text{
+	background : #786b59;
+	top : 0;
+	left : 100%;
+	padding : 60px 40px;    
+    text-align: center;
+    color:  #fff;
+}
+.img-text h1 {
+	text-transform: uppercase;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 45px;
+	margin: 0;
+}
+.img-text i{
+    padding: 0 5px;
+}
+.profile-box:hover .img-text{
+		-webkit-transform : translate3D(-400px,0,0) rotate3d(0,1,0,10deg);
+}
+.card-container {
+    position: relative;
+    width: 100%;
+    padding-top: 15px;
+}
+.card-container label {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 20px;
+    color:#786b59;
+    font-weight: 400;
+}
+.image, .text-ar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+#test {
+    margin-top: 10px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214, 141, 115);
+    color: white;
+}

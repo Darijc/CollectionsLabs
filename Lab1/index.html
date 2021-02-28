@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!--Підключення бібліотеки jQuery для реалізації модального вікна на кнопці-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Лабораторна №1</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="card-container">
+            <label class="card-label" for="">Автор : Дарій Гиряк</label>
+            <hr>
+            <h2 class="h2-text">Студент групи 203<sup>2</sup></h2>
+            <i class="cursive-text">НУ ЛП</i>
+            <ruby class="text-anotation">
+                Текст для перевірки 
+                <rt>Анотація</rt>
+            </ruby>
+            <blockquote>
+                <p>Не помиляється лиш той, хто нічого не робить! 
+                Не бійтесь помилятись — а бійтесь повторяти помилки.</p>
+                <p>Цитата - Теодора Рузвельта</p>
+            </blockquote>
+            <h3 class="h3-text">Фотогараф та прогер</h3>
+            <button data-fancybox data-src="#modal" href="javascript:;" class="button">Нажміть на мене</button>
+            <p>Натисніть нижче,щоб дізнатись час</p>
+            <input class="time" type="time" title="Вказує точний час"><br><br>
+            <audio controls>
+                <source src="music/music.mp3" type="audio/mpeg"> 
+            </audio>
+            <table class="table-data" width="100%" border="1" cellspacing="0" cellpadding="4">
+                <caption>Таблиця 1.0 реалізація таблиці знань Front-End</caption>  
+                <tr> 
+                 <th>&nbsp;</th><th>HTML</th>
+                 <th>CSS</th><th>JS</th>
+                </tr>
+                <tr> 
+                 <td><i><b>Синтаксис</td></i></b><td>Добре</td>
+                 <td>Добре</td><td>Початківець</td>
+                </tr>
+                <tr> 
+                 <td><i><b>Сайтів</td></i></b><td>6</td>
+                 <td>6</td><td>2</td>
+                </tr>
+            </table>
+            <img src="img/img2.jpg" alt="image" class="image">
+            <h1 class="h1-text">гора Захар Беркут</h1>
+            <p class="summarize"><b>Введіть ваші враження : </b><br>
+                <input class="input-type" type="text" size="20">
+            </p>
+        </div>
+    </div>
+    <div class="modal" id="modal"> <!--Модальне вікно при натисканні на кнопку-->
+        <h2 class="modal-title">Дякую за натискання !</h2>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

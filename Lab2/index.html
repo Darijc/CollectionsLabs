@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!--Підключення бібліотеки jQuery для реалізації модального вікна на кнопці-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Лабораторна №2</title>
+</head>
+
+<body>
+    <header class="header">
+      <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Type to search" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+       </div>
+    </header>
+     
+    <section class="">
+        <div class="wrapper">
+            <div class="card-container">
+                <label class="card-label" for=""><b>Автор</b> : Дарій Гиряк</label>
+                <hr>
+                <div class="profile-box">
+                    <div class="img-area">
+                        <img src="img/img1.jpg" alt="image" class="image">
+                    </div>
+                    <div class="img-text">
+                        <h1>Darij Hyriak</h1>
+                        <h2>Junior Web Developer</h2>
+                        <h3>Lviv, Ukraine</h3>
+                    </div>
+                </div>
+                <h1 class="h1-text">Студент групи КН-203</h1>
+                <a href="javascript:;" id="video" class="video-link">ПЕРЕГЛЯНУТИ ВІДЕО</a>
+                <button data-fancybox data-src="#modal" href="javascript:;" class="button">Нажміть на мене</button>
+                <p>Натисніть нижче,щоб <b>дізнатись</b> час</p>
+                <input class="time" type="time" title="Вказує точний час"><br><br>
+                <table class="table-data" width="100%" border="1" cellspacing="0" cellpadding="4">
+                    <caption>Таблиця 1.0 реалізація таблиці знань <b>Front-End</b></caption>  
+                    <tr> 
+                     <th>&nbsp;</th><th>HTML</th>
+                     <th>CSS</th><th>JS</th>
+                    </tr>
+                    <tr> 
+                     <td><i><b>Синтаксис</td></i></b><td class="table-color-1">Добре</td>
+                     <td class="table-color-1">Добре</td><td class="table-color-2">Початківець</td>
+                    </tr>
+                    <tr> 
+                     <td><i><b>Сайтів</td></i></b><td>6</td>
+                     <td>6</td><td>2</td>
+                    </tr>
+                </table>
+
+                <p>Дякую за перевірку</p>
+                <p>моєї лабораторної роботи !</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="pin-1">
+        <div>
+            <p class="teg">Теги :</p>
+            <form>
+            <select>
+            <option>Поле вводу</option>
+            <option>Таблиця та колір</option>
+            <option>Приховані поля</option>
+            <option>Текст "як є" + Абзац</option>
+            <option>Посилання + Відео</option>
+            <option>Заголовок 1 + Жирність</option>
+            <option>Список</option>
+            <option>Кнопка</option>
+            <option>Час</option>
+            </select>
+            </form>
+          </div>
+    </section>
+
+    <section class="pin-2">
+        <div>
+            <p class="styl">Стилізація :</p>
+            <form>
+            <select>
+            <option>Before && After</option>
+            <option>Анімація зміни рамки</option>
+            <option>Вирівняння по флекс</option>
+            <option>Лінійний градієнт</option>
+            <option>3Д трансформація</option>
+            <option>Відносне позиціювання</option>
+            <option>Фіксоване позиціювання</option>
+            </select>
+            </form>
+          </div>
+    </section>
+    
+    <!--
+    <section class="animated-box">
+        <p><kbd>transform-style: flat;</kbd></p>
+      <div class="container style-flat">  
+           <div class="flip"></div>
+        </div>
+    </section>-->
+
+     <div class="modal" id="modal"> <!--Модальне вікно при натисканні на кнопку-->
+        <h2 class="modal-title">Дякую за натискання !</h2>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

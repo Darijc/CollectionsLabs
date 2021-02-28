@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <!--Підключення бібліотеки jQuery для реалізації модального вікна на кнопці-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Лабораторна №3</title>
+</head>
+
+<body>
+    <header class="header">
+      <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Type to search" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
+       </div>
+    </header>
+     
+    <section>
+        <div class="wrapper">
+            <div class="card-container">
+                <label class="card-label" for=""><b>Автор</b> : Дарій Гиряк</label>
+                <hr>
+                <div class="profile-box">
+                    <div class="img-area">
+                        <img src="img/img1.jpg" alt="image" class="image">
+                    </div>
+                    <div class="img-text">
+                        <h1>Darij Hyriak</h1>
+                        <h2>Junior Web Developer</h2>
+                        <h3>Lviv, Ukraine</h3>
+                    </div>
+                </div>
+                <textarea id="count-parag" class="text-ar">
+                    Студент групи КН-203
+                    Студент групи КН-203
+                </textarea>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script> 
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

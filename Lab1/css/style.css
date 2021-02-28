@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+html {
+    font-size: 25px;
+}
+body {
+    background: #757f9a; 
+    background: -webkit-linear-gradient(
+        to right,
+        #d7dde8,
+        #757f9a
+    ); 
+    background: linear-gradient(to right, #d7dde8, #757f9a); /*Для інших браузерів*/
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: #ffffff;
+    border-radius: 25px;
+    width: 40%;
+    min-width: 300px;
+    height: 1770px;
+    padding: 2rem;
+    box-shadow: 0 24px 20px rgba(0, 0, 0, 0.10);
+}
+.card-container {
+    position: relative;
+    width: 100%;
+    padding-top: 15px;
+}
+.card-container label {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    font-size: 20px;
+    color: #308cbd;
+    font-weight: 400;
+}
+.text-anotation {
+    display: block;
+    margin-top: 25px;
+}
+blockquote:before, blockquote:after {
+    font-size: 3em;
+    color: #757f9a;
+} 
+blockquote:before {
+    content: '«';
+    float: left;
+    margin-top: -0.4em;
+}
+blockquote:after {
+    content: '»';
+    float: right;
+    margin-top: -1.2em;
+   }
+blockquote p { 
+    margin: 1em 3em; 
+}
+.button {
+    border-radius: 25px;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #757f9a;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+}
+p{
+    animation: color-change 1s infinite;
+}
+  
+@keyframes color-change {
+    0% { color: rgb(204, 0, 255); }
+    50% { color: rgb(55, 55, 221); }
+    100% { color: rgb(0, 195, 255); }
+}
+.modal {
+    display: none;
+    border-radius: 15px;
+}
+.modal-title {
+    color: #292929;
+}
+.table-data {
+   margin-top: 25px;
+}
+.image {
+    width: 100%;
+    margin-top: 35px;
+    opacity: 0.7;
+}
+.time {
+    cursor: pointer;
+}
+.input-type {
+    caret-color: rgb(116, 80, 248);
+}
+.summarize{
+    display: flex;
+    justify-content: center;
+}
+.h3-text {
+    writing-mode: vertical-rl;
+    inline-size: 150px;
+}
+.cursive-text {
+    word-spacing: 20px;
+}

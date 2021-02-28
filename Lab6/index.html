@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Лабораторна №6</title>
+	</head>
+
+  <body>
+
+	<section>
+        <div class="wrapper">
+            <div class="card-container">
+                <label class="card-label" for=""><b>Автор</b> : Дарій Гиряк</label>
+                <hr>
+                <div class="profile-box">
+                    <div class="img-area">
+                        <img src="img/img1.jpg" alt="image" class="image">
+                    </div>
+                    <div class="img-text">
+                        <h1>Darij Hyriak</h1>
+                        <h2>Junior Web Developer</h2>
+                        <h3>Lviv, Ukraine</h3>
+                    </div>
+                </div>
+				
+                <h3>Завдання №6 </h3>
+                <form action="">
+                    <p>Введіть рядок,який завершується розширенням .txt, .html або .php</p>
+                    <input type="text" id="input1">
+                    <button id="button1">Check</button>
+                </form>
+
+                <h3>Завдання №5</h3>
+                <form action="">
+                    <p>Введіть рядок,який починається розширенням http або з https</p>
+                    <input type="text" id="input2">
+                    <button id="button2">Check</button>
+                </form>
+
+		        <h3>Завдання №4</h3>
+		        <form action="">
+                    <p>Введіть рядок, який є доменом з протоколом </p>
+                    <input type="text" id="input3">
+                    <button id="button3">Check</button>
+                </form>
+
+		        <h3>Завдання №11</h3>
+                <form action="">
+                    <p><input id="but1" type="text" name="text"></p>
+                    <input type="button" value="Check" onclick="spaceChange()">
+                </form>
+
+                <h3>Завдання №13</h3>
+                <p>Видаляються всі коментарі</p>
+                <textarea id="myTextarea">
+                    <!--Comment-->
+                    Text
+                    <!--Comment-->
+                    <!--Comment-->
+                    Text
+                </textarea>
+                <input type="button" value="Delete" onclick="stripHtmlComments()">
+		        
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
