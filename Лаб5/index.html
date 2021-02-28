@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Лабораторна №5</title>
+</head>
+
+<body onload = "openWindow();">
+
+    <section>
+        <div class="wrapper">
+            <div class="card-container">
+                <label class="card-label" for=""><b>Автор</b> : Дарій Гиряк</label>
+                <hr>
+                <div class="profile-box">
+                    <div class="img-area">
+                        <img src="img/img1.jpg" alt="image" class="image">
+                    </div>
+                    <div class="img-text">
+                        <h1>Darij Hyriak</h1>
+                        <h2>Junior Web Developer</h2>
+                        <h3>Lviv, Ukraine</h3>
+                    </div>
+                </div>
+                <h3>Завдання №2</h3>
+                <p>Введіть число :</p>
+                <p><input id="press_1" type="text" name="text"></p>
+                <input type="button" value="Start" onclick="primeNumber()">
+                <table id="parag_1" cellpadding="0" border="1">
+                    <tr><td></td></tr>
+                </table>
+
+                <h3>Завдання №17</h3>
+                <p>Ввести значення по спаданню :</p>
+                <p><input id="press_2" type="text" name="text"></p>
+                <input type="button" button value="Start" onclick="sortValue()">
+                <p id="parag_2"></p>
+
+                <h3>Завдання №13</h3>
+                <p>Введіть кількість чисел :</p>
+                <div class="input">
+                    <b>Введіть текст:</b>
+                    <input type="text" name="your_text" id="input_text">
+                    <button type="button" name="button" onclick="text_10()">Вивести значення</button>
+                    <p id="text_10">Числа, що більші ніж 10:<br></p>
+                  </div>
+
+                <h3>Завдання №20</h3>
+                <div>
+                    <input type="text" id="input1">
+                    <input type="text" id="input2">
+                    <button id="button">Make array</button>
+                    <p id="result3"></p>
+                </div>
+
+                <h3>Завдання №22</h3>
+                <div>
+                    <div class="ggg">
+                        <input type="text" class="block">
+                        <input type="checkbox">
+                    </div>
+                
+                    <div class="ggg">
+                        <input type="text" class="block">
+                        <input type="checkbox">
+                    </div>
+                
+                    <div class="ggg">
+                        <input type="text" class="block">
+                        <input type="checkbox">
+                    </div>
+                
+                    <div class="ggg">
+                        <input type="text" class="block">
+                        <input type="checkbox">
+                    </div>
+                
+                    <div class="ggg">
+                        <input type="text" class="block">
+                        <input type="checkbox">
+                    </div>
+                    <button id="makeArrayFromInputsButton">Make array</button>
+                    <p id="result4"></p>
+                </div>                
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
