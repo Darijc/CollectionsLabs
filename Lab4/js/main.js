@@ -1,10 +1,10 @@
 /*Таск №10*/ 
-/* function openWindow() {
+function openWindow() {
     var newWindow = window.open("about:blank", "empty", "height=600, width=300;");
     newWindow.document.write("Завдання №10"+"\nНове вікно !");
     setTimeout(function() {newWindow.close()}, 3000);
 }
-*/
+
 
  //Таск №6 
 var clickCount = 0;
