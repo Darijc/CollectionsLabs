@@ -1,6 +1,6 @@
 # CollectionsLabs
 
-> Виконаннялабораторної роботи ```sh №1 ```
+> Виконання лабораторної роботи ``` №1 ```
 
 - https://darijc.github.io/WebDevLabs/Lab1/
 - https://darijc.github.io/WebDevLabs/Lab2/
