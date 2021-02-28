@@ -10,11 +10,11 @@
 - https://darijc.github.io/WebDevLabs/Lab4/
 > Виконання лабораторної роботи ``` №5 ```
 - https://darijc.github.io/WebDevLabs/Lab5/
-- > Виконання лабораторної роботи ``` №6 ```
+> Виконання лабораторної роботи ``` №6 ```
 - https://darijc.github.io/WebDevLabs/Lab6/
-- > Виконання лабораторної роботи ``` №7 ```
+> Виконання лабораторної роботи ``` №7 ```
 - https://darijc.github.io/WebDevLabs/Lab7/
-- > Виконання лабораторної роботи ``` №8 ```
+> Виконання лабораторної роботи ``` №8 ```
 - https://darijc.github.io/WebDevLabs/Lab8/
 
 ---
