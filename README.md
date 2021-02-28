@@ -1,9 +1,9 @@
 # CollectionsLabs
 
 ```sh
-npx readme-md-generator
+https://darijc.github.io/WebDevLabs/Lab1/
 ```
-- https://darijc.github.io/WebDevLabs/Lab1/
+
 - https://darijc.github.io/WebDevLabs/Lab2/
 - https://darijc.github.io/WebDevLabs/Lab3/
 - https://darijc.github.io/WebDevLabs/Lab4/
