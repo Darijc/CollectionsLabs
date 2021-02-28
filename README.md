@@ -1,4 +1,4 @@
-# CollectionsLabs
+# Веб-технології та веб-дизайн
 
 > Виконання лабораторної роботи ``` №1 ```
 - https://darijc.github.io/WebDevLabs/Lab1/
