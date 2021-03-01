@@ -18,5 +18,9 @@
 - https://darijc.github.io/WebDevLabs/Lab8/
 
 ---
-### Languages :
-<img align="left" alt="HTML5" width="26px" src="https://ru.wikipedia.org/wiki/HTML5#/media/Файл:HTML5_logo_and_wordmark.svg" />
+### Tools :
+Використання мов програмування : 
+ HTML, CSS, JS
+ 
+Додані бібліотеки : 
+ jQuery для модального вікна
